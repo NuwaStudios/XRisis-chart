@@ -100,7 +100,8 @@ resources:
 autoscaling:
   enabled: false
   minReplicas: 1
-  maxReplicas: 100
+  maxReplicas: 3
+  # changed from 100 to 3 for billing security
   targetCPUUtilizationPercentage: 80
   # targetMemoryUtilizationPercentage: 80
 
